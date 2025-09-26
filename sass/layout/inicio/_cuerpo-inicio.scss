@@ -1,0 +1,111 @@
+/*CONTENEDOR PRINCIPAL*/
+
+
+
+
+
+
+.boxmodel{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 0.5rem;
+    background-color: $colorNegro;
+  color: $colorBlanco;
+    display: flex;
+    justify-content: center;
+      text-align: center;
+  transition: all 1s ease;
+  border-radius: 20px;
+
+
+}
+
+.text-title{
+
+ @extend %texto-items;
+  margin-top: 1rem;
+}
+.card-container{
+@extend %borde-inferior-cuadro;
+@extend %borde-superior-cuadro;
+justify-content: center;
+width: 320px;
+height: auto;
+flex-shrink: 0;
+margin: 1rem;
+box-shadow: 0 4px 4px 0 #fc0909dc inset;
+
+   font-weight: 1.2rem;
+}
+.tit2le{
+
+ @extend %texto-items;
+display: grid;
+width: 320px;
+height: auto;
+
+justify-content: center;
+
+
+flex-shrink: 0;
+ font-weight: 6rem;
+
+ @extend %borde-superior-cuadro;
+
+
+ 
+  background-color: #6322227a;
+  color: $colorBlanco;
+
+
+ 
+
+
+
+}
+
+.text-text{
+  @extend %texto-items;
+    font-size: 1.2rem;
+    
+    align-content: center;
+  
+}
+
+.card2{
+   
+
+    @extend %texto-items;
+      background-color: $colorNegro;
+  box-shadow: inset 0px 65px 0px $colorNegro;
+  border-color: $colorNegro;
+   border-end-end-radius: 16px;
+  border-end-start-radius: 16px;
+   overflow: hidden;
+     word-wrap: break-word;  /* rompe palabras largas */
+  white-space: normal;    /* permite saltos de línea */
+  
+   
+}
+.img-dtg{
+margin-top: 4rem;
+width: 310px;
+height: auto;
+
+
+
+
+}
+
+.btn{
+ 
+  background-color: $colorBordo;
+  box-shadow: inset 0px 65px 0px $colorrojo;
+  color: $colorBordo;
+  border-radius: 12px;
+
+  margin-bottom: 1rem;
+  font-weight: 2rem;
+
+  transition: all 2s ease;
+}

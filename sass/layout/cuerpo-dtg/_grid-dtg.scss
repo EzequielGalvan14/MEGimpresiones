@@ -1,0 +1,52 @@
+
+/*GRID*/
+
+.precios{
+  margin-top: 1rem;
+  background-color: $colorBordo;
+  @extend %borde-inferior-cuadro;
+@extend %borde-superior-cuadro;
+}
+.text-precios{
+color: $colorBlanco;
+  text-align: center;
+
+  font-size: xx-large;
+}
+.header-grid, .body-grid {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: $colorNegro;
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 10px;
+  padding: 10px;
+  gap: 10px;
+   width: 700px; /* ajustá según lo que necesites */
+   height: auto;
+  max-width: 100%; /* para que no se salga del contenedor */
+}
+
+.header-grid div {
+  font-weight: bold;
+  color: $colorBlanco;
+}
+
+.body-grid div {
+  background-color: #720e0ee0;
+  padding: 10px;
+  border-radius: 5px;
+  color: $colorBlanco;
+}
+
+
+.contenedor-info-grilla{
+
+  padding: 2rem;
+  display:flex;
+  gap: 2rem;
+
+}

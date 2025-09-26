@@ -1,0 +1,61 @@
+/*HEADERNAVBAR*/
+
+/* ===== Header ===== */
+.header-contenedor-superior {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 99%;
+  height: 100px;
+  background-color: $colorNegro;
+  color: $colorBlanco;
+  position: fixed;
+  top: 0; /* ✅ corregido */
+  left: 0;
+  margin-left: 8px;
+  margin-right: 5px;
+  z-index: 1000;
+  border-radius: 20px;
+}
+
+.logo {
+  width: 6rem;
+  transition: all 2s ease;
+}
+
+ul {
+  list-style: none;
+  cursor: pointer;
+  transition: all 2s ease;
+}
+
+.ul-navbar {
+  display: flex;
+  gap: 2em;
+}
+
+.ul-navbar li a {
+  color: $colorBlanco;
+  font-weight: 2rem;
+  text-decoration: none;
+  transition: all 2s ease;
+}
+
+
+.titulo {
+  background-color: $colorNegro;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 7rem;
+  color: $colorBlanco;
+  transition: all 1s ease;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 12px;
+}
+
+
+
+

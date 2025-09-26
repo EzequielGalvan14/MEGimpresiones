@@ -1,0 +1,145 @@
+/*segundo btox mtodegl*/
+
+
+
+.card-container2{
+
+width: auto;
+height: auto;
+flex-shrink: 0;
+flex-shrink: 0;
+background-color: $colorNegro;
+box-shadow: 0 4px 4px 0 $colorNegro inset;
+  @extend %borde-inferior-cuadro;
+ @extend %borde-superior-cuadro;
+  margin-left: 80px;
+   margin-right: 80px;
+   font-weight: 2rem;
+   margin-bottom: 1rem;
+}
+
+.text-title2{
+  padding: 1rem;
+  background-color: $colorNegro;
+  font-size: xx-large;
+  text-align: center;
+  color: $colorBlanco;
+   @extend %borde-superior-cuadro;
+  
+}
+
+
+.card4{
+
+  margin-top: 1rem;
+  
+  display: flex;
+  
+  width: 800px;
+  border-radius: 48px;
+ 
+      background-color: #000000b2;
+
+  border-color: $colorNegro;
+
+   overflow: hidden;
+     word-wrap: break-word;  /* rompe palabras largas */
+  white-space: normal;    /* permite saltos de línea */
+  gap:0.4rem;
+
+  
+}
+
+.img-dtg2{
+  margin-left: 0.2rem;
+  margin-top: 4rem;
+      width: 300px;
+      height: 200px;
+      border-radius: 24px;
+     
+   
+    
+}
+
+
+.text-text2{
+  display: flex;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: $colorBlanco;
+  margin-top: 4rem;
+   font-size: small;
+  
+}
+
+.btn-caja{
+    margin-top: 1rem;
+    text-align: center;
+   
+}
+.btn2{
+margin-bottom: 1rem;
+ background-color: $colorNegro;
+  box-shadow: inset 0px 65px 0px $colorNegro;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 1rem;
+  color: $colorBlanco;
+
+  text-decoration: none;
+  transition: all 2s ease;
+}
+
+
+
+/*GRID*/
+
+.precios{
+  margin-top: 1rem;
+  background-color: $colorBordo;
+  @extend %borde-inferior-cuadro;
+@extend %borde-superior-cuadro;
+}
+.text-precios{
+color: $colorBlanco;
+  text-align: center;
+
+  font-size: xx-large;
+}
+.header-grid, .body-grid {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: $colorNegro;
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 10px;
+  padding: 10px;
+  gap: 10px;
+   width: 700px; /* ajustá según lo que necesites */
+   height: auto;
+  max-width: 100%; /* para que no se salga del contenedor */
+}
+
+.header-grid div {
+  font-weight: bold;
+  color: $colorBlanco;
+}
+
+.body-grid div {
+  background-color: #720e0ee0;
+  padding: 10px;
+  border-radius: 5px;
+  color: $colorBlanco;
+}
+
+
+.contenedor-info-grilla{
+
+  padding: 2rem;
+  display:flex;
+  gap: 2rem;
+
+}
